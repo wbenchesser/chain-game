@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'NotRobot';
+    src: url('../fonts/NotARobot.ttf') format('truetype');
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-shadow: 0 4px 2px -2px gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .game-name {
+    display: flex;
+    align-items: center;
+    font-family: 'NotRobot', sans-serif;
+    font-size: 1.8rem;
+  }
+  
+  .chain-svg {
+    height: 1.6rem;
+    margin-top: 2px;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+  }
+  
+  .restart {
+    background: none;
+    border: none;
+    font-size: 22px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: black;
+    transform: scaleX(-1);
+  }
+
+  .how-to {
+    background: none;
+    border: none;
+    font-size: 26px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .home {
+    background: none;
+    border: none;
+    font-size: 28px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .how-to:hover {
+    color: #21409a;
+  }
+
+  .restart:hover {
+    color: #a31724;
+  }
+
+  .home:hover {
+    color: #008148;
+  }

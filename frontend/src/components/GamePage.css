@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 99vmin;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px; 
+}
+
+.words-container {
+  height: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.word-item {
+  font-size: 1.8rem;
+  margin: 0.2rem 0;
+}
+
+.text-input {
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  width: 300px;
+  text-align: center;
+  border: solid;
+  margin: 15px;
+  margin-top: 20px;
+}
+
+.word-chain {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chain-image {
+  width: 1.5rem;
+  margin-top: 10px;
+}
+
+.error-message {
+  padding-top: 10px;
+}
+
+.loading-container {
+  height: 50px; /* match with loading gif height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.loading-spinner {
+  margin-top: 10px;
+  height: 50px;
+  text-align: center;
+}

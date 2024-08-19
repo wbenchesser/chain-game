@@ -1,0 +1,45 @@
+.homepage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    font-size: 1rem;
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .title-name {
+    display: flex;
+    align-items: center;
+    font-family: 'NotRobot', sans-serif;
+    font-size: 4rem;
+  }
+  
+  .title-chain {
+    height: 3.6rem;
+    margin-top: 4px;
+  }
