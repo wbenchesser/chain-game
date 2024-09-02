@@ -14,7 +14,9 @@ Chain Game is a web-based word game where players must build a chain of words by
 4. Challenge: Continue adding words to create the longest chain possible.
 
 ## Demo
-![demo](https://github.com/user-attachments/assets/147cea40-cdc9-44c1-a016-fc6e0f511715)
+
+https://github.com/user-attachments/assets/8d1dae66-1ec6-48ed-9387-92759f336f91
+
 
 
 ## Technology Stack
